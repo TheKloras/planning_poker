@@ -1,2 +1,2 @@
 # Planning poker
-planning poker app created for Festo
+planning poker app created for Festo.
