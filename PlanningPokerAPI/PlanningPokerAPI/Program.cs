@@ -31,6 +31,7 @@ builder.Services.AddTransient<IEmailSenderRepository, EmailSenderRepository>();
 builder.Services.AddScoped<JwtService>();
 builder.Services.AddScoped<LobbyHub>();
 
+//CORS options
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(builder =>
